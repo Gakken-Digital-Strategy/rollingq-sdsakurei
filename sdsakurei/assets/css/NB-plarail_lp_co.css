@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Noto Sans JP';
+    src: url('./fonts/NotoSansJP-Regular.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    src: url('./fonts/MPLUSRounded1c-Regular.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    src: url('./fonts/MPLUSRounded1c-Medium.woff') format('woff');
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    src: url('./fonts/MPLUSRounded1c-Bold.woff') format('woff');
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'M PLUS Rounded 1c';
+    src: url('./fonts/MPLUSRounded1c-Black.woff') format('woff');
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+}
+
+
+:root {
+
+    /* Colors: */
+    --unnamed-color-e21b33: #E21B33;
+    --unnamed-color-ff9300: #FF9300;
+    ---ffc400_logo: #FFC400;
+    --unnamed-color-ffd952: #FFD952;
+    --unnamed-color-ffffd3: #FFFFD3;
+    --unnamed-color-fafaf7: #FAFAF7;
+    --unnamed-color-f0f8ff: #F0F8FF;
+    --unnamed-color-3fa4ef: #3FA4EF;
+    --unnamed-color-2a86d5: #2A86D5;
+    --unnamed-color-0e7fdd: #0E7FDD;
+    --unnamed-color-25a871: #25A871;
+    --unnamed-color-00bf6f: #00BF6F;
+    --unnamed-color-d8d8d8: #D8D8D8;
+    --unnamed-color-222222: #222222;
+    --unnamed-color-555555: #555555;
+
+    /* Font/text values */
+    --noto: 'Noto Sans JP', sans-serif;
+    --mplus: 'M PLUS Rounded 1c', sans-serif;
+    --font-style-normal: normal;
+    --font-weight-800: 800px;
+    --font-weight-normal: normal;
+    --font-weight-medium: medium;
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-24: 24px;
+    --fs-30: 30px;
+    --fs-36: 36px;
+    --cs-0: 0px;
+    --cs-32: -0.32px;
+    --cs-48: -0.48px;
+    --cs-6: -0.6px;
+    --cs-72: -0.72px;
+    --ls-19: 19px;
+    --ls-20: 20px;
+    --ls-28: 28px;
+    --ls-29: 29px;
+    --ls-36: 36px;
+    --ls-43: 43px;
+}
+
+/* Character Styles */
+.unnamed-character-style-1 {
+    font-family: var(--mplus);
+    font-style: var(--font-style-normal);
+    font-weight: var(--font-weight-800);
+    font-size: var(--fs-24);
+    line-height: var(--ls-29);
+    letter-spacing: var(--cs-48);
+    color: var(--unnamed-color-222222);
+}
+
+.unnamed-character-style-2 {
+    font-family: var(--unnamed-font-family-rounded-mplus-1c);
+    font-style: var(--font-style-normal);
+    font-weight: var(--font-weight-800);
+    font-size: var(--unnamed-font-size-16);
+    line-height: var(--unnamed-line-spacing-19);
+    letter-spacing: var(--unnamed-character-spacing--0-32);
+    color: var(--unnamed-color-222222);
+}
+
+.unnamed-character-style-3 {
+    font-family: var(--unnamed-font-family-noto-sans-jp-regular);
+    font-style: var(--font-style-normal);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--unnamed-font-size-14);
+    line-height: var(--unnamed-line-spacing-20);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-555555);
+}
+
+.unnamed-character-style-4 {
+    font-family: var(--unnamed-font-family-rounded-mplus-1c);
+    font-style: var(--font-style-normal);
+    font-weight: var(--font-weight-800);
+    font-size: var(--unnamed-font-size-30);
+    line-height: var(--unnamed-line-spacing-36);
+    letter-spacing: var(--unnamed-character-spacing--0-6);
+    color: var(--unnamed-color-222222);
+}
+
+.unnamed-character-style-5 {
+    font-family: var(--unnamed-font-family-rounded-mplus-1c);
+    font-style: var(--font-style-normal);
+    font-weight: var(--font-weight-medium);
+    font-size: var(--unnamed-font-size-16);
+    line-height: var(--unnamed-line-spacing-28);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-222222);
+}
+
+.unnamed-character-style-6 {
+    font-family: var(--unnamed-font-family-rounded-mplus-1c);
+    font-style: var(--font-style-normal);
+    font-weight: var(--font-weight-800);
+    font-size: var(--unnamed-font-size-36);
+    line-height: var(--unnamed-line-spacing-43);
+    letter-spacing: var(--unnamed-character-spacing--0-72);
+    color: var(--unnamed-color-222222);
+}
